@@ -1,10 +1,6 @@
-
 import './Mainone.css';
-;
 
 function MainContent() {
-
-
     const menuItems = [
         { id: 1, title: 'All' },
         { id: 2, title: 'Coke Studio' },
@@ -19,7 +15,109 @@ function MainContent() {
         { id: 11, title: 'Computer' },
     ];
 
+    const videoData = [
+        {
+            id: 1,
+            thumbnail:
+                "https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/Thumbnail-1.png?raw=true",
+            logo:
+                "https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/Ellipse%204%20(4).png?raw=true",
+            title: "Tech Skills Improve By Watching This Video",
+            channel: "Tech World",
+            verified:
+                "https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/verified.png?raw=true",
+        },
+        {
+            id: 2,
+            thumbnail:
+                "https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/Thumbnail-10.png?raw=true",
+            logo:
+                "https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/Ellipse%201%20(2).png?raw=true",
+            title: "Learn Advanced Tech Skills",
+            channel: "UI-UX Designer",
+            verified:
+                "https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/verified.png?raw=true",
+        },
+        {
+            id: 3,
+            thumbnail:
+                "https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/Thumbnail-2.png?raw=true",
+            logo:
+                "https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/Ellipse%204%20(2).png?raw=true",
+            title: "How to Become a Developer",
+            channel: "CodeMaster",
+            verified:
+                "https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/verified.png?raw=true",
+        },
+        {
+            id: 4,
+            thumbnail:
+                "https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/Thumbnail-4.png?raw=true",
+            logo:
+                "https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/Ellipse%204%20(3).png?raw=true",
+            title: "How to become ui-ux designer",
+            channel: "Pro Designer",
+            verified:
+                "https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/verified.png?raw=true",
+        },
+        {
+            id: 5,
+            thumbnail:
+                "https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/Thumbnail-5.png?raw=true",
+            logo:
+                "https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/Ellipse%204-1.png?raw=true",
+            title: "Lets Feel Free and Vibing",
+            channel: "Song Makers",
+            verified:
+                "https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/verified.png?raw=true",
+        },
+        {
+            id: 6,
+            thumbnail:
+                "https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/Thumbnail-7.png?raw=true",
+            logo:
+                "https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/Ellipse%201%20(3).png?raw=true",
+            title: "Faster and Better In Figma",
+            channel: "Figma Expert",
+            verified:
+                "https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/verified.png?raw=true",
+        },
+        {
+            id: 7,
+            thumbnail:
+                "https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/Thumbnail-8.png?raw=true",
+            logo:
+                "https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/Ellipse%204%20(1).png?raw=true",
+            title: "Amezing Mash Ups",
+            channel: "Coke Studio",
+            verified:
+                "https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/verified.png?raw=true",
+        },
+        {
+            id: 8,
+            thumbnail:
+                "https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/Thumbnail-9.png?raw=true",
+            logo:
+                "https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/Ellipse%201%20(5).png?raw=true",
+            title: "Infinix note 12 pro review",
+            channel: "Mobile World",
+            verified:
+                "https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/verified.png?raw=true",
+        },
+        {
+            id: 9,
+            thumbnail:
+                "https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/Thumbnail-9.png?raw=true",
+            logo:
+                "https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/Ellipse%201%20(5).png?raw=true",
+            title: "Infinix note 12 pro review",
+            channel: "Mobile World",
+            verified:
+                "https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/verified.png?raw=true",
+        },
 
+
+    ];
 
     return (
         <div className="main-content">
@@ -64,9 +162,49 @@ function MainContent() {
                         {item.title}
                     </div>
                 ))}
+                <div className="arrow">
+                    <img
+                        src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/leftBottom.png?raw=true"
+                        alt="Arrow Icon"
+                    />
+                </div>
             </div>
-
-
+            <hr />
+            <div className='firstrow-container'>
+                <div className="firstrow">
+                    {videoData.map((video) => (
+                        <div className="box" key={video.id}>
+                            <div className="thumbnail">
+                                <img
+                                    src={video.thumbnail}
+                                    alt=""
+                                    className="thumbnail-img"
+                                />
+                            </div>
+                            <div className="content">
+                                <div className="logoicon">
+                                    <img
+                                        src={video.logo}
+                                        alt={`${video.channel} Logo`}
+                                        className="logo-img"
+                                    />
+                                </div>
+                                <div className="text-content">
+                                    <p className="title">{video.title}</p>
+                                    <p className="channal">
+                                        {video.channel}
+                                        <img
+                                            src={video.verified}
+                                            alt="Verified Icon"
+                                            className="verify"
+                                        />
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </div>
         </div>
     );
 }
