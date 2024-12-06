@@ -1,0 +1,97 @@
+.main-content {
+    flex: 1;
+    background-color: #181818;
+    padding-top: 10px;
+    color: white;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .search-bar {
+    display: flex;
+    padding-left: 350px ;
+  }
+  
+  .search-input {
+    width: 400px;
+    padding: 10px;
+    background-color: #121212;
+    border: 1px solid #404040;
+    border-radius: 2px 0 0 2px;
+    color: white;
+  }
+  
+  .search-button {
+    padding: 10px;
+    background-color: #303030;
+    border: none;
+    border-radius: 0 2px 2px 0;
+  }
+  
+  .menu-icons {
+    display: flex;
+    padding-left: 290px;
+    gap: 15px;
+  }
+  
+  .menu-icon {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+  }
+  
+  
+  
+  .subscriptions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .subscription-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 200px;
+  }
+  
+  .subscription-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .subscription-text {
+    font-size: 14px;
+  }
+  
+
+
+  .horizontal-menu {
+    display: flex;
+    align-items: center;
+    overflow-x: auto; 
+    padding: 10px 20px;
+    background-color: #1818184d;
+    gap: 10px;
+    white-space: nowrap; 
+  }
+  
+  .menu-item {
+    padding: 8px 15px;
+    background-color: #202020;
+    border-radius: 20px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    flex-shrink: 0;
+  }
+  
+  .menu-item:hover {
+    background-color: #303030; 
+  }
+  
